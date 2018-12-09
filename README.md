@@ -6,13 +6,13 @@ Samsung ships a lot of pre-installed applications that I never used and have no 
 
 You need to install `adb` before executing script
 
-**`sudo apt-get update`**
+**`sudo apt-get update`**  
 **`sudo apt-get install adb`**
 
 Check if your device is recognised by `adb`
 
-**`adb devices`**
-`List of devices attached`
+**`adb devices`**  
+`List of devices attached`  
 `520506e363fa1137 device`
 
 If you see empty list while device is connected to USB you probably need to enable `USB debugging` in `Developer options` menu. To enable `USB debugging` switch to owner user (if you have multiple users on your tablet) then go to `Settings / General / About device` and click 7 times on `Build number`. Now you should have access to `Settings / General / Developer options`.
