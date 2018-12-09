@@ -15,7 +15,7 @@ Check if your device is recognised by `adb`
 `List of devices attached`  
 `520506e363fa1137 device`  
 
-If you see empty list while device is connected to USB you probably need to enable `USB debugging` in `Developer options` menu. To enable `USB debugging` switch to owner user (if you have multiple users on your tablet) then go to `Settings / General / About device` and click 7 times on `Build number`. Now you should have access to `Settings / General / Developer options`.
+If you see empty list while device is connected to USB you probably need to enable `USB debugging` in `Developer options` menu. To enable `USB debugging` switch to owner user (if you have multiple users on your tablet) then go to `Settings` &rarr; `General` &rarr; `About device` and click 7 times on `Build number`. Now you should have access to `Settings` &rarr; `General` &rarr; `Developer options`.
 
 Clone git repository and execute script
 
