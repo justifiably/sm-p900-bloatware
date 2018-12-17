@@ -25,8 +25,14 @@ PKG="$PKG com.hancom.androidpc.appwidget" # Hancom Office Widget & PDF Viewer
 PKG="$PKG com.sec.android.app.samsungapps" # Galaxy Apps
 PKG="$PKG com.sec.android.widgetapp.samsungapps" # Galaxy Apps Widget
 
+USER_ID="$1"
+
+if [ -z "$USER_ID" ]; then
+    USER_ID=0
+fi
+
 for i in $PKG
 do
   echo -n "Uninstall $i: "
-  adb shell pm uninstall -k --user 0 $i
+  adb shell pm uninstall -k --user $USER_ID $i
 done
